@@ -369,13 +369,6 @@ git push origin feature/your-feature
 - **🔧 [Development Guide](docs/development.md)** - Local development
 - **📱 [Mobile App Guide](docs/mobile.md)** - Flutter development
 
-## 📞 Support & Community
-
-- **🐛 Issues**: [GitHub Issues](../../issues)
-- **💬 Discussions**: [GitHub Discussions](../../discussions)  
-- **📧 Email**: support@siteye.construction
-- **📖 Wiki**: [Project Wiki](../../wiki)
-- **🎥 Videos**: [Demo Videos](https://youtube.com/siteye)
 
 ## 📊 Project Statistics
 
@@ -390,12 +383,6 @@ git push origin feature/your-feature
 📈 Uptime SLA: 99.9%
 ```
 
-## 🏆 Awards & Recognition
-
-- **🥇 Best Construction Tech Innovation 2024**
-- **🛡️ Safety Excellence Award - Construction Safety Council**
-- **🤖 AI Innovation in Construction - TechCrunch**
-- **🏗️ Digital Transformation Leader - ENR Magazine**
 
 ## 📄 License
 
@@ -412,6 +399,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![GitHub stars](https://img.shields.io/github/stars/Masoud-kamali/SpatialTech.svg?style=social&label=Star)](https://github.com/Masoud-kamali/SpatialTech)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/siteye_ai.svg?style=social&label=Follow)](https://twitter.com/siteye_ai)
 
-[🌐 Website](https://siteye.construction) • [📧 Contact](mailto:hello@siteye.construction) • [📱 Download App](https://apps.siteye.construction)
 
 </div>
