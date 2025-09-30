@@ -7,8 +7,9 @@ class Alert(models.Model):
     """Safety alert model"""
     ALERT_TYPES = [
         ('ppe_violation', 'PPE Violation'),
-        ('unauthorized_access', 'Unauthorized Access'),
-        ('safety_hazard', 'Safety Hazard'),
+        ('fall_detection', 'Fall Detection'),
+        ('workforce_safety', 'Workforce Safety'),
+        ('fence_breach', 'Safety Fence Breach'),
         ('equipment_malfunction', 'Equipment Malfunction'),
         ('emergency', 'Emergency Situation'),
         ('zone_overcrowding', 'Zone Overcrowding'),

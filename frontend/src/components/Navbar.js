@@ -79,25 +79,25 @@ const Navbar = () => {
         >
           <MenuItem onClick={handleNotificationClose}>
             <Box>
-              <Typography variant="subtitle2">PPE Violation Detected</Typography>
+              <Typography variant="subtitle2">Fall Risk Detected</Typography>
               <Typography variant="caption" color="textSecondary">
-                Zone 3 - Worker without hard hat
+                Zone 3 - Worker near unprotected edge
               </Typography>
             </Box>
           </MenuItem>
           <MenuItem onClick={handleNotificationClose}>
             <Box>
-              <Typography variant="subtitle2">Equipment Alert</Typography>
+              <Typography variant="subtitle2">Fence Breach Alert</Typography>
               <Typography variant="caption" color="textSecondary">
-                Crane operation without spotter
+                Safety barrier damaged in section A
               </Typography>
             </Box>
           </MenuItem>
           <MenuItem onClick={handleNotificationClose}>
             <Box>
-              <Typography variant="subtitle2">Weather Warning</Typography>
+              <Typography variant="subtitle2">Workforce Safety</Typography>
               <Typography variant="caption" color="textSecondary">
-                High wind conditions detected
+                Multiple workers without harnesses
               </Typography>
             </Box>
           </MenuItem>

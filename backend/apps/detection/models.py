@@ -9,7 +9,9 @@ class Detection(models.Model):
         ('vehicle', 'Vehicle'),
         ('equipment', 'Equipment'),
         ('ppe', 'Personal Protective Equipment'),
-        ('hazard', 'Safety Hazard'),
+        ('fall_risk', 'Fall Risk'),
+        ('fence', 'Safety Fence'),
+        ('workforce', 'Workforce Safety'),
     ]
     
     camera = models.ForeignKey(Camera, on_delete=models.CASCADE, related_name='detections')

@@ -17,10 +17,10 @@ SitEye is an intelligent real-time monitoring system designed to enhance constru
 
 ### 🔍 Detection Capabilities
 - Personal Protective Equipment (PPE) compliance
-- Unsafe worker positioning near machinery
-- Unauthorized personnel in restricted areas
+- Fall detection and prevention
+- Workforce safety monitoring
+- Safety fence integrity and compliance
 - Equipment safety status monitoring
-- Environmental hazard detection
 
 ## 🏗️ Architecture
 
@@ -92,18 +92,18 @@ The system includes pre-configured safety rules for:
 🚨 ALERT: PPE violation detected - Zone 3
 ```
 
-### Scenario 2: Equipment Safety
+### Scenario 2: Fall Detection
 ```
-✅ Crane operator certified and in position
-❌ Unauthorized personnel near heavy machinery
-🚨 ALERT: Safety perimeter breach - Equipment Zone
+✅ Workers properly secured with harnesses
+❌ Worker detected near unprotected edge
+🚨 ALERT: Fall risk detected - Immediate action required
 ```
 
-### Scenario 3: Environmental Monitoring
+### Scenario 3: Safety Fence Monitoring
 ```
-✅ Weather conditions within safe parameters
-❌ High wind detected during crane operation
-🚨 ALERT: Weather safety threshold exceeded
+✅ Perimeter fencing intact and secure
+❌ Damaged section detected in safety barrier
+🚨 ALERT: Fence integrity breach - Zone compromised
 ```
 
 ## 🛠️ Quick Start

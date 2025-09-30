@@ -35,10 +35,10 @@ Open your browser to: **http://localhost:3000**
 ```
 🔍 Object Detection Capabilities:
 ✅ PPE Detection (Hard hats, Safety vests, Gloves)
-✅ Worker Position Monitoring
-✅ Equipment Safety Checks
-✅ Zone Access Control
-✅ Environmental Hazard Detection
+✅ Fall Detection & Prevention
+✅ Workforce Safety Monitoring
+✅ Safety Fence Integrity Checks
+✅ Equipment Safety Monitoring
 ```
 
 ### Scenario 3: Compliance Rule Engine
@@ -68,9 +68,9 @@ Open your browser to: **http://localhost:3000**
 ### 3. Alert System
 Current Demo Alerts:
 ```
-🚨 PPE Violation - Worker without hard hat in Zone 3
-⚠️  Equipment Alert - Crane operation without spotter  
-ℹ️  Zone Breach - Unauthorized access to restricted area
+🚨  Fall Risk - Worker detected near unprotected edge in Zone 3
+⚠️  Fence Breach - Safety barrier damaged in perimeter section A
+⚠️  Workforce Safety - Multiple workers without safety harnesses
 ```
 
 ## 🎪 Hackathon Presentation Points

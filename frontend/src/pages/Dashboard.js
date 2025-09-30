@@ -51,23 +51,23 @@ const Dashboard = () => {
   const recentAlerts = [
     {
       id: 1,
-      type: 'PPE Violation',
-      description: 'Worker without hard hat in Zone 3',
-      severity: 'high',
+      type: 'Fall Detection',
+      description: 'Worker detected near unprotected edge - Zone 3',
+      severity: 'critical',
       time: '2 minutes ago',
     },
     {
       id: 2,
-      type: 'Equipment Alert',
-      description: 'Crane operation without spotter',
-      severity: 'critical',
+      type: 'Fence Breach',
+      description: 'Safety barrier damaged in perimeter section A',
+      severity: 'high',
       time: '15 minutes ago',
     },
     {
       id: 3,
-      type: 'Zone Breach',
-      description: 'Unauthorized access to restricted area',
-      severity: 'medium',
+      type: 'Workforce Safety',
+      description: 'Multiple workers without safety harnesses',
+      severity: 'high',
       time: '1 hour ago',
     },
   ];
