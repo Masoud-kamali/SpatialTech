@@ -320,19 +320,19 @@ siteye_response_time_seconds
 
 ## 🔮 Future Roadmap
 
-### **Phase 2: Enhanced AI (Q2 2024)**
+### **Phase 2: Enhanced AI (Q2 2025)**
 - [ ] Predictive safety analytics using machine learning
 - [ ] Computer vision for equipment safety monitoring  
 - [ ] Natural language safety report generation
 - [ ] Advanced fall trajectory prediction
 
-### **Phase 3: IoT Integration (Q3 2024)**
+### **Phase 3: IoT Integration (Q3 2025)**
 - [ ] Smart helmet integration with HUD displays
 - [ ] Environmental sensor network (air quality, noise)
 - [ ] Wearable device ecosystem for health monitoring
 - [ ] Drone-based site surveillance automation
 
-### **Phase 4: Enterprise Features (Q4 2024)**
+### **Phase 4: Enterprise Features (Q4 2025)**
 - [ ] Multi-site management dashboard
 - [ ] Blockchain-based compliance certificates  
 - [ ] Advanced project management integration
