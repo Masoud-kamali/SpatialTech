@@ -1,0 +1,107 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "SitEye Construction Safety Dashboard",
+    "tags": ["siteye", "construction", "safety"],
+    "style": "dark",
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Safety Compliance Score",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "siteye_safety_compliance_score",
+            "legendFormat": "Compliance Score"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "yellow", "value": 70},
+                {"color": "green", "value": 90}
+              ]
+            },
+            "unit": "percent"
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Active Workers",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "siteye_active_workers_total",
+            "legendFormat": "Active Workers"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Fall Risk Alerts Over Time",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(siteye_fall_risk_alerts_total[5m])",
+            "legendFormat": "Fall Risk Alerts/sec"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "Safety Equipment Compliance",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "siteye_ppe_compliance_total",
+            "legendFormat": "PPE Compliant"
+          },
+          {
+            "expr": "siteye_ppe_violations_total",
+            "legendFormat": "PPE Violations"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16}
+      },
+      {
+        "id": 5,
+        "title": "Fence Integrity Status",
+        "type": "table",
+        "targets": [
+          {
+            "expr": "siteye_fence_status",
+            "legendFormat": "{{fence_id}} - {{status}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16}
+      },
+      {
+        "id": 6,
+        "title": "Response Time Distribution",
+        "type": "heatmap",
+        "targets": [
+          {
+            "expr": "rate(django_http_request_duration_seconds_bucket[5m])",
+            "legendFormat": "{{le}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 24}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}
