@@ -359,15 +359,6 @@ npm test frontend/
 git push origin feature/your-feature
 ```
 
-## 📄 Documentation
-
-- **📖 [API Documentation](docs/api.md)** - Complete API reference
-- **🏗️ [Architecture Guide](docs/architecture.md)** - System design details
-- **🚀 [Deployment Guide](docs/deployment.md)** - Production setup
-- **🔧 [Development Guide](docs/development.md)** - Local development
-- **📱 [Mobile App Guide](docs/mobile.md)** - Flutter development
-
-
 ## 📊 Project Statistics
 
 ```
