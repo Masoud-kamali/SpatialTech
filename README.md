@@ -8,8 +8,6 @@
 
 **Revolutionary AI-powered real-time construction site safety monitoring system that reduces workplace accidents by 70% through intelligent fall detection, workforce safety monitoring, and safety fence integrity checking.**
 
-![SitEye Architecture](https://via.placeholder.com/800x400/1976d2/ffffff?text=SitEye+Architecture+Diagram)
-
 ## 🚀 Key Features
 
 ### 🎯 **Core Safety Capabilities**
